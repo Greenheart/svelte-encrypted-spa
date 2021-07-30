@@ -13,24 +13,24 @@
     },
     "dependencies": {
         "lodash-es": "^4.17.21",
-        "svelte-pathfinder": "^3.2.1"
+        "svelte-pathfinder": "^3.2.3"
     },
     "devDependencies": {
-        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.15",
         "@tsconfig/svelte": "^2.0.1",
         "@types/lodash-es": "^4.17.4",
-        "autoprefixer": "^10.2.6",
-        "pagecrypt": "^4.0.1",
-        "postcss": "^8.3.5",
+        "autoprefixer": "^10.3.1",
+        "pagecrypt": "^5.1.0",
+        "postcss": "^8.3.6",
         "postcss-load-config": "^3.1.0",
-        "prettier": "^2.3.1",
+        "prettier": "^2.3.2",
         "prettier-plugin-svelte": "^2.3.1",
-        "svelte": "^3.38.3",
-        "svelte-check": "^2.2.0",
-        "svelte-preprocess": "^4.7.3",
-        "tailwindcss": "^2.2.2",
-        "typescript": "^4.3.4",
-        "vite": "^2.3.8",
+        "svelte": "^3.41.0",
+        "svelte-check": "^2.2.3",
+        "svelte-preprocess": "^4.7.4",
+        "tailwindcss": "^2.2.7",
+        "typescript": "^4.3.5",
+        "vite": "^2.4.4",
         "vite-plugin-singlefile": "^0.5.1"
     },
     "prettier": {
