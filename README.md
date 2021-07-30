@@ -35,7 +35,7 @@ By default, the static assets in the `/public` directory will not be encrypted, 
 
 One approach is to host static assets separately on another server. This will hide both the assets themselves, and the URL:s from where the app will fetch them since the source code is encrypted.
 
-For additional security considerations, refer to the [pagecrypt docs](https://github.com/greenheart/pagecrypt#readme)
+For additional security considerations, refer to the [pagecrypt docs](https://github.com/greenheart/pagecrypt#security-considerations)
 
 ---
 
