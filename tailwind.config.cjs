@@ -1,9 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-    mode: 'jit',
-    purge: ['./index.html', './src/**/*.{js,svelte}'],
-    darkMode: false,
+    content: ['./index.html', './src/**/*.{js,svelte}'],
     theme: {
         screens: {
             xs: '475px',
