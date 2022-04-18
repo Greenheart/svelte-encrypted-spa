@@ -1,4 +1,4 @@
-import type { Question } from '../lib/interfaces'
+import type { Question } from '../lib/types'
 
 export const questions: Question[] = [
     {

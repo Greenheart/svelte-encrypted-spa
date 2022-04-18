@@ -2,7 +2,7 @@
     import Layout from '../components/Layout.svelte'
     import RandomQuestion from '../components/RandomQuestion.svelte'
     import { questions } from '../data/questions'
-    import getRandomItem from '../lib/getRandomItem'
+    import { getRandomItem } from '../lib/utils'
 </script>
 
 <script lang="ts">

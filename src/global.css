@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+    overscroll-behavior-y: contain;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+:focus, *:focus {
+    outline: 0 !important;
+    border: 0 !important;
+}

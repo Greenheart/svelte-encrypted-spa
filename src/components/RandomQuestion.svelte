@@ -1,14 +1,15 @@
 <script context="module" lang="ts">
     import Question from '../components/Question.svelte'
     import { questions } from '../data/questions'
-    import getRandomItem from '../lib/getRandomItem'
+    import {getRandomItem} from '../lib/utils'
+    import type { Question as QuestionType } from '../lib/types'
 </script>
 
 <script lang="ts">
     import { question, viewedQuestions } from '../lib/stores'
 
     function getQuestionNotViewedBefore() {
-        let next
+        let next: QuestionType
         while (!next && $viewedQuestions.length < questions.length) {
             const potential = getRandomItem(
                 questions.filter(

@@ -1,5 +1,5 @@
 <script context="module" lang="ts">
-    import type { Question as QuestionType } from '../lib/interfaces'
+    import type { Question as QuestionType } from '../lib/types'
 </script>
 
 <script lang="ts">
