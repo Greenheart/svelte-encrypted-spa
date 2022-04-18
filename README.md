@@ -18,7 +18,7 @@ Make a copy of `.env.example` and rename one of them to `.env`. Then you can use
 
 ```
 npm install
-npm start
+npm run dev
 ```
 
 ## Change the password for the built app
@@ -43,7 +43,7 @@ For additional security considerations, refer to the [pagecrypt docs](https://gi
 
 ### Start a development server
 
-`npm start`
+`npm run dev`
 
 ### Build the application and create the encrypted build
 
