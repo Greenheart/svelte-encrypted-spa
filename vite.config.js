@@ -8,11 +8,10 @@ export default defineConfig({
         svelte({
             preprocess: sveltePreprocess({ postcss: true }),
         }),
-        process.env.NODE_ENV === 'production' &&
-            viteSingleFile({
-                removeViteModuleLoader: true,
-                useRecommendedBuildConfig: true,
-            }),
+        viteSingleFile({
+            removeViteModuleLoader: true,
+            useRecommendedBuildConfig: true,
+        }),
     ],
     build: {
         outDir: 'build',
