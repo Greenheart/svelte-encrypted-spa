@@ -8,21 +8,14 @@ export default defineConfig({
         svelte({
             preprocess: sveltePreprocess({ postcss: true }),
         }),
-        process.env.NODE_ENV === 'production' && viteSingleFile(),
+        process.env.NODE_ENV === 'production' &&
+            viteSingleFile({
+                removeViteModuleLoader: true,
+                useRecommendedBuildConfig: true,
+            }),
     ],
     build: {
         outDir: 'build',
         target: 'es2019',
-        assetsInlineLimit: 100000000,
-        chunkSizeWarningLimit: 100000000,
-        cssCodeSplit: false,
-        sourcemap: false,
-        brotliSize: false,
-        rollupOptions: {
-            inlineDynamicImports: true,
-            output: {
-                manualChunks: () => 'everything.js',
-            },
-        },
     },
 })

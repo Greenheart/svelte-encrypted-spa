@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build && node scripts/postbuild.js",
-        "serve": "vite preview",
+        "preview": "vite preview",
         "check": "svelte-check --tsconfig ./tsconfig.json"
     },
     "dependencies": {
