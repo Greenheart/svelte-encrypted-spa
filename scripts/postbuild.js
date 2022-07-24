@@ -2,9 +2,7 @@ import { remove } from 'fs-extra'
 import { encrypt, generatePassword } from 'pagecrypt'
 import 'dotenv/config'
 
-const password = process.env.PASSWORD
-    ? process.env.PASSWORD
-    : generatePassword(61)
+const password = process.env.PASSWORD ?? generatePassword(61)
 
 const inputFile = 'build/index.html'
 const outputFile = inputFile
