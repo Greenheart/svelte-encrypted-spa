@@ -10,26 +10,26 @@
         "check": "svelte-check --tsconfig ./tsconfig.json"
     },
     "dependencies": {
-        "svelte-pathfinder": "^3.3.0"
+        "svelte-pathfinder": "^3.4.0"
     },
     "devDependencies": {
-        "@sveltejs/vite-plugin-svelte": "^1.0.1",
+        "@sveltejs/vite-plugin-svelte": "^1.0.8",
         "@tsconfig/svelte": "^3.0.0",
-        "autoprefixer": "^10.4.7",
-        "dotenv": "^16.0.1",
+        "autoprefixer": "^10.4.8",
+        "dotenv": "^16.0.3",
         "fs-extra": "^10.1.0",
         "pagecrypt": "^5.4.0",
-        "postcss": "^8.4.14",
+        "postcss": "^8.4.17",
         "postcss-load-config": "^4.0.1",
         "prettier": "^2.7.1",
-        "prettier-plugin-svelte": "^2.7.0",
-        "svelte": "^3.49.0",
-        "svelte-check": "^2.8.0",
+        "prettier-plugin-svelte": "^2.7.1",
+        "svelte": "^3.50.1",
+        "svelte-check": "^2.9.1",
         "svelte-preprocess": "^4.10.7",
-        "tailwindcss": "^3.1.6",
-        "typescript": "^4.7.4",
-        "vite": "^3.0.2",
-        "vite-plugin-singlefile": "^0.11.0"
+        "tailwindcss": "^3.1.8",
+        "typescript": "^4.8.4",
+        "vite": "^3.1.4",
+        "vite-plugin-singlefile": "^0.12.1"
     },
     "prettier": {
         "semi": false,
