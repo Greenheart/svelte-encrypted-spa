@@ -1,13 +1,13 @@
 import { defineConfig } from 'vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
-import sveltePreprocess from 'svelte-preprocess'
 import { viteSingleFile } from 'vite-plugin-singlefile'
+import { setDefaultResultOrder } from 'dns'
+
+setDefaultResultOrder('verbatim')
 
 export default defineConfig({
     plugins: [
-        svelte({
-            preprocess: sveltePreprocess({ postcss: true }),
-        }),
+        svelte(),
         viteSingleFile({
             removeViteModuleLoader: true,
             useRecommendedBuildConfig: true,
