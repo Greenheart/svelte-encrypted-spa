@@ -1,6 +1,5 @@
-import { remove } from 'fs-extra'
 import { encrypt, generatePassword } from 'pagecrypt'
-import 'dotenv/config'
+import { rm } from 'fs/promises'
 
 const password = process.env.PASSWORD ?? generatePassword(61)
 
@@ -12,7 +11,7 @@ console.log(
     `\n🔐 Encrypting ${inputFile} → ${outputFile} with \u{1F511}: ${password}\n`,
 )
 
-await remove('build/assets')
+await rm('build/assets', { recursive: true, force: true })
 
 if (process.env.DEPLOYMENT_URL) {
     console.log(`🔐 Magic Link: ${process.env.DEPLOYMENT_URL + '#' + password}\n\n`)

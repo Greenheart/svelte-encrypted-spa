@@ -6,7 +6,7 @@
 
 -   `svelte` for rapid UI development.
 -   `vite` for modern DX and bundling.
--   `tailwindcss` with `jit` mode for simple and efficient styling.
+-   `tailwindcss` for simple and efficient styling.
 -   `svelte-pathfinder` for in-memory routing.
 -   `vite-plugin-singlefile` for building a single output HTML file that can be easily encrypted along with all its assets.
 -   `pagecrypt` for encrypting the output HTML with strong encryption a password.
@@ -17,8 +17,8 @@
 Make a copy of `.env.example` and rename one of them to `.env`. Then you can use `.env` to change config for the app.
 
 ```
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 ## Change the password for the built app
@@ -43,12 +43,12 @@ For additional security considerations, refer to the [pagecrypt docs](https://gi
 
 ### Start a development server
 
-`npm run dev`
+`pnpm dev`
 
 ### Build the application and create the encrypted build
 
-`npm run build`
+`pnpm build`
 
-### Serve the application
+### Preivew the application
 
-`npm run serve`
+`pnpm preview`
