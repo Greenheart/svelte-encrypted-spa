@@ -6,7 +6,7 @@
 
 <Layout>
     <div class="flex flex-col items-center justify-center flex-1 text-center">
-        <p class="text-xl font-thin uppercase">Welcome to</p>
+        <p class="text-xl uppercase">Welcome to</p>
         <h1
             class="text-green-500 text-5xl sm:text-6xl font-normal normal-case mt-1 mb-32"
         >

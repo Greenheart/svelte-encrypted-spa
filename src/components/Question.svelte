@@ -1,9 +1,10 @@
-<script context="module" lang="ts">
-    import type { Question as QuestionType } from '../lib/types'
-</script>
-
 <script lang="ts">
-    export let question: QuestionType
+    import type { Question as QuestionType } from '../lib/types'
+
+    type Props = {
+        question: QuestionType
+    }
+    let { question }: Props = $props()
 </script>
 
 <article class="border-0 rounded-lg shadow-2xl w-full bg-gray-800 py-8 mb-4">

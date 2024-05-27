@@ -15,7 +15,7 @@
     <div
         class="flex flex-col items-center justify-center flex-1 px-4 text-center max-w-xl w-full"
     >
-        <p class="text-xl font-thin uppercase">
+        <p class="text-xl uppercase">
             {questions.length} questions about
         </p>
         <h1
