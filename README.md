@@ -18,7 +18,7 @@ Make a copy of `.env.example` and rename one of them to `.env`. Then you can use
 
 ```
 pnpm install
-pnpm run dev
+pnpm dev
 ```
 
 ## Change the password for the built app
