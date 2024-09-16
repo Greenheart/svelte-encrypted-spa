@@ -6,7 +6,7 @@
     prefs.sideEffect = false
 
     // @ts-expect-error 2538
-    $: page = routes[$path] || routes['/']
+    const Page = $derived(routes[$path] || routes['/'])
 </script>
 
-<svelte:component this={page} />
+<Page />

@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script lang="ts" module>
     import Layout from '../components/Layout.svelte'
     import RandomQuestion from '../components/RandomQuestion.svelte'
     import { questions } from '../data/questions'

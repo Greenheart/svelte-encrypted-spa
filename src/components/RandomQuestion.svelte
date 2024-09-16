@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script lang="ts" module>
     import Question from '../components/Question.svelte'
     import { questions } from '../data/questions'
     import { getRandomItem } from '../lib/utils'
@@ -7,14 +7,14 @@
 
 <script lang="ts">
     type Props = {
-        question: QuestionType
+        question?: QuestionType
     }
     let { question }: Props = $props()
 
     let viewedQuestions = $state<QuestionType[]>([])
 
     function getQuestionNotViewedBefore() {
-        let next: QuestionType
+        let next: QuestionType | undefined = undefined
         while (!next && viewedQuestions.length < questions.length) {
             const potential = getRandomItem(
                 questions.filter(

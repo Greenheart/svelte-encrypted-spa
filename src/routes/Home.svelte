@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script lang="ts" module>
     import Layout from '../components/Layout.svelte'
     import LinkButton from '../components/LinkButton.svelte'
     import { appName } from '../lib/constants'
