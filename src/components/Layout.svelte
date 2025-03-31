@@ -7,7 +7,7 @@
 
     const bgDefault = 'bg-gray-900'
     const bgGradient =
-        'bg-gradient-to-r from-gray-800 via-green-900 to-gray-800'
+        'bg-linear-to-r from-gray-800 via-green-900 to-gray-800'
 
     let bgColor = $state(
         document.body.classList.contains(bgDefault) ? bgDefault : bgGradient,
