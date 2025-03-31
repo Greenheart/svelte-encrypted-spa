@@ -10,11 +10,11 @@ importers:
     dependencies:
       svelte-pathfinder:
         specifier: ^4.8.1
-        version: 4.8.1(svelte@5.23.0)
+        version: 4.8.1(svelte@5.25.5)
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.3
-        version: 5.0.3(svelte@5.23.0)(vite@6.2.1(jiti@1.21.7)(yaml@2.7.0))
+        version: 5.0.3(svelte@5.25.5)(vite@6.2.4(jiti@1.21.7)(yaml@2.7.0))
       '@tsconfig/svelte':
         specifier: ^5.0.4
         version: 5.0.4
@@ -35,13 +35,13 @@ importers:
         version: 3.5.3
       prettier-plugin-svelte:
         specifier: ^3.3.3
-        version: 3.3.3(prettier@3.5.3)(svelte@5.23.0)
+        version: 3.3.3(prettier@3.5.3)(svelte@5.25.5)
       svelte:
-        specifier: ^5.23.0
-        version: 5.23.0
+        specifier: ^5.25.5
+        version: 5.25.5
       svelte-check:
         specifier: ^4.1.5
-        version: 4.1.5(svelte@5.23.0)(typescript@5.8.2)
+        version: 4.1.5(svelte@5.25.5)(typescript@5.8.2)
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17
@@ -49,11 +49,11 @@ importers:
         specifier: ^5.8.2
         version: 5.8.2
       vite:
-        specifier: ^6.2.1
-        version: 6.2.1(jiti@1.21.7)(yaml@2.7.0)
+        specifier: ^6.2.4
+        version: 6.2.4(jiti@1.21.7)(yaml@2.7.0)
       vite-plugin-singlefile:
         specifier: ^2.2.0
-        version: 2.2.0(rollup@4.35.0)(vite@6.2.1(jiti@1.21.7)(yaml@2.7.0))
+        version: 2.2.0(rollup@4.35.0)(vite@6.2.4(jiti@1.21.7)(yaml@2.7.0))
 
 packages:
 
@@ -878,8 +878,8 @@ packages:
     peerDependencies:
       svelte: '>=3 <5'
 
-  svelte@5.23.0:
-    resolution: {integrity: sha512-v0lL3NuKontiCxholEiAXCB+BYbndlKbwlDMK0DS86WgGELMJSpyqCSbJeMEMBDwOglnS7Ar2Rq0wwa/z2L8Vg==}
+  svelte@5.25.5:
+    resolution: {integrity: sha512-ULi9rkVWQJyJYZSpy6SIgSTchWadyWG1QYAUx3JAXL2gXrnhdXtoB20KmXGSNdtNyquq3eYd/gkwAkLcL5PGWw==}
     engines: {node: '>=18'}
 
   tailwindcss@3.4.17:
@@ -922,8 +922,8 @@ packages:
       rollup: ^4.35.0
       vite: ^5.4.11 || ^6.0.0
 
-  vite@6.2.1:
-    resolution: {integrity: sha512-n2GnqDb6XPhlt9B8olZPrgMD/es/Nd1RdChF6CBD/fHW6pUyUTt2sQW2fPRX5GiD9XEa6+8A6A4f2vT6pSsE7Q==}
+  vite@6.2.4:
+    resolution: {integrity: sha512-veHMSew8CcRzhL5o8ONjy8gkfmFJAd5Ac16oxBUjlwgX3Gq2Wqr+qNC3TjPIpy7TPV/KporLga5GT9HqdrCizw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -1177,25 +1177,25 @@ snapshots:
     dependencies:
       acorn: 8.14.1
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.23.0)(vite@6.2.1(jiti@1.21.7)(yaml@2.7.0))':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.5)(vite@6.2.4(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.25.5)(vite@6.2.4(jiti@1.21.7)(yaml@2.7.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.23.0)(vite@6.2.1(jiti@1.21.7)(yaml@2.7.0))
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.25.5)(vite@6.2.4(jiti@1.21.7)(yaml@2.7.0))
       debug: 4.4.0
-      svelte: 5.23.0
-      vite: 6.2.1(jiti@1.21.7)(yaml@2.7.0)
+      svelte: 5.25.5
+      vite: 6.2.4(jiti@1.21.7)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1(jiti@1.21.7)(yaml@2.7.0))':
+  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.5)(vite@6.2.4(jiti@1.21.7)(yaml@2.7.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.23.0)(vite@6.2.1(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.23.0)(vite@6.2.1(jiti@1.21.7)(yaml@2.7.0))
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.5)(vite@6.2.4(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.25.5)(vite@6.2.4(jiti@1.21.7)(yaml@2.7.0))
       debug: 4.4.0
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.17
-      svelte: 5.23.0
-      vite: 6.2.1(jiti@1.21.7)(yaml@2.7.0)
-      vitefu: 1.0.6(vite@6.2.1(jiti@1.21.7)(yaml@2.7.0))
+      svelte: 5.25.5
+      vite: 6.2.4(jiti@1.21.7)(yaml@2.7.0)
+      vitefu: 1.0.6(vite@6.2.4(jiti@1.21.7)(yaml@2.7.0))
     transitivePeerDependencies:
       - supports-color
 
@@ -1550,10 +1550,10 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.23.0):
+  prettier-plugin-svelte@3.3.3(prettier@3.5.3)(svelte@5.25.5):
     dependencies:
       prettier: 3.5.3
-      svelte: 5.23.0
+      svelte: 5.25.5
 
   prettier@3.5.3: {}
 
@@ -1654,23 +1654,23 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@4.1.5(svelte@5.23.0)(typescript@5.8.2):
+  svelte-check@4.1.5(svelte@5.25.5)(typescript@5.8.2):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.3
       fdir: 6.4.3
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.23.0
+      svelte: 5.25.5
       typescript: 5.8.2
     transitivePeerDependencies:
       - picomatch
 
-  svelte-pathfinder@4.8.1(svelte@5.23.0):
+  svelte-pathfinder@4.8.1(svelte@5.25.5):
     dependencies:
-      svelte: 5.23.0
+      svelte: 5.25.5
 
-  svelte@5.23.0:
+  svelte@5.25.5:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -1738,13 +1738,13 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-plugin-singlefile@2.2.0(rollup@4.35.0)(vite@6.2.1(jiti@1.21.7)(yaml@2.7.0)):
+  vite-plugin-singlefile@2.2.0(rollup@4.35.0)(vite@6.2.4(jiti@1.21.7)(yaml@2.7.0)):
     dependencies:
       micromatch: 4.0.8
       rollup: 4.35.0
-      vite: 6.2.1(jiti@1.21.7)(yaml@2.7.0)
+      vite: 6.2.4(jiti@1.21.7)(yaml@2.7.0)
 
-  vite@6.2.1(jiti@1.21.7)(yaml@2.7.0):
+  vite@6.2.4(jiti@1.21.7)(yaml@2.7.0):
     dependencies:
       esbuild: 0.25.1
       postcss: 8.5.3
@@ -1754,9 +1754,9 @@ snapshots:
       jiti: 1.21.7
       yaml: 2.7.0
 
-  vitefu@1.0.6(vite@6.2.1(jiti@1.21.7)(yaml@2.7.0)):
+  vitefu@1.0.6(vite@6.2.4(jiti@1.21.7)(yaml@2.7.0)):
     optionalDependencies:
-      vite: 6.2.1(jiti@1.21.7)(yaml@2.7.0)
+      vite: 6.2.4(jiti@1.21.7)(yaml@2.7.0)
 
   which@2.0.2:
     dependencies:
