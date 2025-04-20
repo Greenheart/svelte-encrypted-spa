@@ -5,10 +5,10 @@
 </script>
 
 <Layout>
-    <div class="flex flex-col items-center justify-center flex-1 text-center">
+    <div class="flex flex-1 flex-col items-center justify-center text-center">
         <p class="text-xl uppercase">Welcome to</p>
         <h1
-            class="text-green-500 text-5xl sm:text-6xl font-normal normal-case mt-1 mb-32"
+            class="mt-1 mb-32 text-5xl font-normal text-green-500 normal-case sm:text-6xl"
         >
             {appName}
         </h1>

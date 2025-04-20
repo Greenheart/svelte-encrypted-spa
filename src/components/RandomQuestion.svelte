@@ -42,20 +42,20 @@
 {#if question}
     <Question {question} />
 
-    <div class="grid w-full grid-cols-2 gap-4 text-black text-xl sm:text-2xl">
+    <div class="grid w-full grid-cols-2 gap-4 text-xl text-black sm:text-2xl">
         <button
             onclick={setRandomQuestion}
-            class="bg-yellow-400 hover:bg-yellow-500 active:bg-yellow-600 shadow-2xl px-2 md:px-10 py-8 rounded-lg focus:outline-hidden"
+            class="rounded-lg bg-yellow-400 px-2 py-8 shadow-2xl hover:bg-yellow-500 focus:outline-hidden active:bg-yellow-600 md:px-10"
         >
             ❌ No
         </button>
         <button
             onclick={setRandomQuestion}
-            class="bg-green-400 hover:bg-green-500 active:bg-green-600 shadow-2xl px-2 md:px-10 py-8 rounded-lg focus:outline-hidden"
+            class="rounded-lg bg-green-400 px-2 py-8 shadow-2xl hover:bg-green-500 focus:outline-hidden active:bg-green-600 md:px-10"
         >
             ✅ Yes
         </button>
     </div>
 {:else}
-    <p class="text-xl mt-32">Yup, that's all for now! 👀</p>
+    <p class="mt-32 text-xl">Yup, that's all for now! 👀</p>
 {/if}

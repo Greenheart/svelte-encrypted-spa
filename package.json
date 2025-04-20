@@ -7,7 +7,9 @@
         "dev": "vite",
         "build": "vite build && node --env-file=.env scripts/postbuild.js",
         "preview": "vite preview",
-        "check": "svelte-check --tsconfig ./tsconfig.json"
+        "check": "svelte-check --tsconfig ./tsconfig.json",
+        "format": "prettier --write .",
+        "lint": "prettier --check ."
     },
     "dependencies": {
         "svelte-pathfinder": "^4.8.1"
@@ -21,6 +23,7 @@
         "postcss-load-config": "^6.0.1",
         "prettier": "^3.5.3",
         "prettier-plugin-svelte": "^3.3.3",
+        "prettier-plugin-tailwindcss": "^0.6.11",
         "svelte": "^5.28.1",
         "svelte-check": "^4.1.6",
         "tailwindcss": "^4.1.4",
@@ -38,7 +41,8 @@
         "svelteBracketNewLine": true,
         "svelteAllowShorthand": true,
         "plugins": [
-            "prettier-plugin-svelte"
+            "prettier-plugin-svelte",
+            "prettier-plugin-tailwindcss"
         ]
     },
     "engines": {

@@ -6,8 +6,7 @@
     import { appName } from '../lib/constants'
 
     const bgDefault = 'bg-gray-900'
-    const bgGradient =
-        'bg-linear-to-r from-gray-800 via-green-900 to-gray-800'
+    const bgGradient = 'bg-linear-to-r from-gray-800 via-green-900 to-gray-800'
 
     let bgColor = $state(
         document.body.classList.contains(bgDefault) ? bgDefault : bgGradient,
@@ -34,15 +33,15 @@
 </svelte:head>
 
 <main
-    class="py-4 mx-auto flex flex-col items-center justify-between bg-transparent text-white h-full w-full"
+    class="mx-auto flex h-full w-full flex-col items-center justify-between bg-transparent py-4 text-white"
 >
     <button
         onclick={toggleBackground}
-        class="text-green-400 hover:text-green-500 hover:underline active:text-green-600 font-semibold"
+        class="font-semibold text-green-400 hover:text-green-500 hover:underline active:text-green-600"
         >Secret</button
     >
     {@render children()}
-    <footer class="flex flex-col items-center justify-center w-full h-24">
+    <footer class="flex h-24 w-full flex-col items-center justify-center">
         <a
             href="https://github.com/Greenheart/svelte-encrypted-spa"
             class="pb-2"

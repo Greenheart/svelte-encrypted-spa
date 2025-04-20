@@ -4,13 +4,13 @@
 
 ## Technologies used
 
--   `svelte` for rapid UI development.
--   `vite` for modern DX and bundling.
--   `tailwindcss` for simple and efficient styling.
--   `svelte-pathfinder` for in-memory routing.
--   `vite-plugin-singlefile` for building a single output HTML file that can be easily encrypted along with all its assets.
--   `pagecrypt` for encrypting the output HTML with strong encryption a password.
--   `prettier` for consistent code formatting.
+- `svelte` for rapid UI development.
+- `vite` for modern DX and bundling.
+- `tailwindcss` for simple and efficient styling.
+- `svelte-pathfinder` for in-memory routing.
+- `vite-plugin-singlefile` for building a single output HTML file that can be easily encrypted along with all its assets.
+- `pagecrypt` for encrypting the output HTML with strong encryption a password.
+- `prettier` for consistent code formatting.
 
 ## Installation
 
