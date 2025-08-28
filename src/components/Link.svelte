@@ -1,6 +1,5 @@
 <script lang="ts">
     import type { Snippet } from 'svelte'
-    import { goto } from 'svelte-pathfinder'
 
     type Props = {
         href: string
@@ -15,6 +14,6 @@
         'text-green-400 hover:text-green-500 hover:underline active:text-green-600 font-semibold'
 </script>
 
-<button onclick={() => goto(href)} class={className}>
+<a {href} class={className}>
     {@render children()}
-</button>
+</a>
