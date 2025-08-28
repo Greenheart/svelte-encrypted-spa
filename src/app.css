@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-2xs: 375px;
+    --breakpoint-xs: 475px;
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+}
+
+html,
+body {
+    height: 100%;
+    overscroll-behavior-y: contain;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+:focus,
+*:focus {
+    outline: 0 !important;
+    border: 0 !important;
+}

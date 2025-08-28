@@ -1,22 +1,7 @@
-import { defineConfig } from 'vite'
-import { svelte } from '@sveltejs/vite-plugin-svelte'
-import { viteSingleFile } from 'vite-plugin-singlefile'
+import { sveltekit } from '@sveltejs/kit/vite'
 import tailwind from '@tailwindcss/vite'
-import { setDefaultResultOrder } from 'dns'
-
-setDefaultResultOrder('verbatim')
+import { defineConfig } from 'vite'
 
 export default defineConfig({
-    plugins: [
-        svelte(),
-        tailwind(),
-        viteSingleFile({
-            removeViteModuleLoader: true,
-            useRecommendedBuildConfig: true,
-        }),
-    ],
-    build: {
-        outDir: 'build',
-        target: 'es2019',
-    },
+    plugins: [sveltekit(), tailwind()],
 })
