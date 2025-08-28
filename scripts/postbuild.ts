@@ -8,7 +8,7 @@ const password = process.env.PASSWORD
 const inputFile = 'build/index.html'
 const outputFile = inputFile
 
-await rm('build/assets', { recursive: true, force: true })
+await rm('build/_app', { recursive: true, force: true })
 
 // Do not log if password was predefined
 if (!process.env.PASSWORD) {

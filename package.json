@@ -5,8 +5,8 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build && node --env-file=.env scripts/postbuild.js",
-        "preview": "vite preview",
+        "build": "vite build && node --env-file=.env scripts/postbuild.ts",
+        "preview": "vite ./build --port 4173",
         "check": "svelte-check --tsconfig ./tsconfig.json",
         "format": "prettier --write .",
         "lint": "prettier --check ."
