@@ -51,7 +51,10 @@
         "onlyBuiltDependencies": [
             "@tailwindcss/oxide",
             "esbuild"
-        ]
+        ],
+        "overrides": {
+            "cookie@<0.7.0": ">=0.7.0"
+        }
     },
     "dependencies": {
         "@types/node": "^24.3.0"
