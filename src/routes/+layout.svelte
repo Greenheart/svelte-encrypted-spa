@@ -36,7 +36,7 @@
         >
 
         {#if page.route.id !== '/'}
-            <Link href="/">Home</Link>
+            <Link href="#/">Home</Link>
         {/if}
     </footer>
 </main>
