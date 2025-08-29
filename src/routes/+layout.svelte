@@ -23,14 +23,14 @@
 >
     <button
         onclick={toggle}
-        class="font-semibold text-green-400 hover:text-green-500 hover:underline active:text-green-600"
+        class="cursor-pointer font-semibold text-green-400 underline underline-offset-3 hover:text-green-500 active:text-green-600"
         >Secret</button
     >
     {@render children()}
     <footer class="flex h-24 w-full flex-col items-center justify-center">
         <a
             href="https://github.com/Greenheart/svelte-encrypted-spa"
-            class="pb-2 underline"
+            class="pb-2 underline underline-offset-3"
             target="_blank"
             rel="noopener noreferrer">Created with {appName}</a
         >

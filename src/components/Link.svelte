@@ -11,7 +11,7 @@
 
     let className =
         props.class ||
-        'text-green-400 hover:text-green-500 hover:underline active:text-green-600 font-semibold'
+        'text-green-400 hover:text-green-500 underline underline-offset-3 active:text-green-600 font-semibold'
 </script>
 
 <a {href} class={className}>
