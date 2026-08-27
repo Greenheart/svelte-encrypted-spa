@@ -7,13 +7,13 @@
         children: Snippet
     }
 
-    let { href, children, ...props }: Props = $props()
-
-    let className =
-        props.class ||
-        'text-green-400 hover:text-green-500 underline underline-offset-3 active:text-green-600 font-semibold'
+    let { href, children, class: className }: Props = $props()
 </script>
 
-<a {href} class={className}>
+<a
+    {href}
+    class={className ??
+        'font-semibold text-green-400 underline underline-offset-3 hover:text-green-500 active:text-green-600'}
+>
     {@render children()}
 </a>
