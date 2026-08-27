@@ -8,12 +8,11 @@
         "build": "vite build && node --env-file=.env scripts/postbuild.ts",
         "preview": "vite ./build --port 4173",
         "check": "svelte-check --tsconfig ./tsconfig.json",
-        "format": "prettier --write .",
-        "lint": "prettier --check ."
+        "fix": "prettier -l --write ."
     },
     "devDependencies": {
-        "@sveltejs/adapter-static": "^3.0.10",
-        "@sveltejs/kit": "^2.70.3",
+        "@sveltejs/adapter-static": "4.0.0-next.4",
+        "@sveltejs/kit": "3.0.0-next.25",
         "@sveltejs/vite-plugin-svelte": "^7.3.0",
         "@tailwindcss/vite": "^4.3.3",
         "@types/node": "^26.3.0",
@@ -39,5 +38,9 @@
     "engines": {
         "node": ">= 22"
     },
-    "type": "module"
+    "type": "module",
+    "imports": {
+        "#lib": "./src/lib/index.js",
+        "#lib/*": "./src/lib/*"
+    }
 }
