@@ -31,11 +31,6 @@
         "semi": false,
         "tabWidth": 4,
         "singleQuote": true,
-        "trailingComma": "all",
-        "svelteSortOrder": "scripts-options-markup-styles",
-        "svelteStrictMode": false,
-        "svelteBracketNewLine": true,
-        "svelteAllowShorthand": true,
         "plugins": [
             "prettier-plugin-svelte",
             "prettier-plugin-tailwindcss"
